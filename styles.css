@@ -9,6 +9,7 @@ body{
 }
 
 .topbar_button{
+    border-radius: 50px;
     color: red;
     background-color: yellow;
     padding: 30px;
