@@ -4,8 +4,8 @@
 
 
 const karte_button = document.getElementById("karte_button");
-const musik_angebot_page = document.getElementById("karte_button");
-const abstimmung = document.getElementById("abstimmung_page");
+const musik_angebot_button = document.getElementById("musik_angebot_button");
+const abstimmung_button = document.getElementById("abstimmung_button");
 
 
 karte_button.addEventListener('click', function() {

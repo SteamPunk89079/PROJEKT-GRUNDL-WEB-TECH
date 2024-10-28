@@ -25,3 +25,30 @@ body{
     width: 110px;
     border: 2px solid black
 }
+
+
+/* Footer styling */
+.footer {
+    background-color: #333;          /* Dark background color */
+    color: #fff;                     /* White text color */
+    padding: 20px;                   /* Padding around content */
+    text-align: center;     
+    position: fixed;         /* Fixes the element's position relative to the viewport */
+    bottom: 0;               /* Positions it at the bottom */
+    left: 0;          /* Center text alignment */
+    right: 0;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #bbb;                     /* Light gray color for links */
+    margin: 0 10px;                  /* Space between links */
+    text-decoration: none;           /* Remove underline */
+  }
+  
+  .footer-links a:hover {
+    color: #fff;                     /* Change color on hover */
+  }
