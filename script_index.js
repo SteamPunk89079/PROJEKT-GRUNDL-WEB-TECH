@@ -10,15 +10,15 @@ const abstimmung_button = document.getElementById("abstimmung_button");
 
 karte_button.addEventListener('click', function() {
 
-    window.location.href = "Pages/karte_page";
+    window.location.href = "Pages/karte_page.html";
 });
 
 musik_angebot_button.addEventListener('click', function() {
 
-    window.location.href = "Pages/musik_angebot_page";
+    window.location.href = "Pages/musik_angebot_page.html";
 });
 
 abstimmung_button.addEventListener('click', function() {
 
-    window.location.href = "Pages/abstimmung_page";
+    window.location.href = "Pages/abstimmung_page.html";
 });

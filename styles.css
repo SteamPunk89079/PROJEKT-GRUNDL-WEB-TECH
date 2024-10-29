@@ -31,7 +31,7 @@ body{
 .footer {
     background-color: #333;          /* Dark background color */
     color: #fff;                     /* White text color */
-    padding: 20px;                   /* Padding around content */
+    padding: 10px;                   /* Padding around content */
     text-align: center;     
     position: fixed;         /* Fixes the element's position relative to the viewport */
     bottom: 0;               /* Positions it at the bottom */

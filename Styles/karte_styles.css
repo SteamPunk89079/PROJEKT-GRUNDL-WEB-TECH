@@ -3,3 +3,140 @@
 body{
     background-color: cadetblue;
 }
+
+h1{
+    text-align: center;
+    font-family:monospace;
+}
+
+.location_card{
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+}
+.location_card video{
+    
+}
+
+
+.video_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 10px; /* Space between grid items */
+    padding: 50px; /* Padding around the grid */
+}
+
+/* Styling for each video element */
+.video_grid video {
+    width: 100%; /* Make video fill the grid cell */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+
+
+
+
+
+.video-container {
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 200px; /* Makes the video fit the container width */
+    height: 200px; /* Makes the video fit the container height */
+    object-fit: cover; /* Ensures the video covers the container, cropping as necessary */
+}
+
+video {
+    width: 100%; /* Make videos responsive */
+    height: auto; /* Keep aspect ratio */
+    display: block; /* Ensure block-level display */
+}
+
+
+
+.image-frame {
+    width: auto;
+    max-width: 700px;
+    
+    overflow: hidden;
+    border: 2px solid #ccc;
+    margin: 20px auto;
+    position: relative;
+}
+
+.image-frame img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease, transform-origin 0.3s ease; /* Smooth zoom effect and origin change */
+}
+
+.image-frame:hover img {
+    transform: scale(3.5); /* Increase zoom level */
+}
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer styling */
+.footer {
+    background-color: #333;          /* Dark background color */
+    color: #fff;                     /* White text color */
+    padding: 10px;                   /* Padding around content */
+    text-align: center;     
+    position: fixed;         /* Fixes the element's position relative to the viewport */
+    bottom: 0;               /* Positions it at the bottom */
+    left: 0;          /* Center text alignment */
+    right: 0;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #bbb;                     /* Light gray color for links */
+    margin: 0 10px;                  /* Space between links */
+    text-decoration: none;           /* Remove underline */
+  }
+  
+  .footer-links a:hover {
+    color: #fff;                     /* Change color on hover */
+  }
