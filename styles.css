@@ -29,13 +29,13 @@ body{
 
 /* Footer styling */
 .footer {
-    background-color: #333;          /* Dark background color */
-    color: #fff;                     /* White text color */
-    padding: 10px;                   /* Padding around content */
+    background-color: #333;         
+    color: #fff;                    
+    padding: 10px;                   
     text-align: center;     
-    position: fixed;         /* Fixes the element's position relative to the viewport */
-    bottom: 0;               /* Positions it at the bottom */
-    left: 0;          /* Center text alignment */
+    position: fixed;       
+    bottom: 0;             
+    left: 0;         
     right: 0;
   }
   
@@ -44,11 +44,11 @@ body{
   }
   
   .footer-links a {
-    color: #bbb;                     /* Light gray color for links */
-    margin: 0 10px;                  /* Space between links */
-    text-decoration: none;           /* Remove underline */
+    color: #bbb;                   
+    margin: 0 10px;              
+    text-decoration: none;           
   }
   
   .footer-links a:hover {
-    color: #fff;                     /* Change color on hover */
+    color: #fff;                 
   }
